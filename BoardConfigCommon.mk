@@ -126,6 +126,7 @@ BOARD_KERNEL_CMDLINE := \
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=ld.lld AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
 TARGET_KERNEL_SOURCE := kernel/realme/sm8250
 TARGET_KERNEL_CONFIG := vendor/sm8250_defconfig
 
