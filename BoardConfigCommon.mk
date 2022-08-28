@@ -136,7 +136,6 @@ BOARD_KERNEL_CMDLINE := \
     reboot=panic_warm \
     service_locator.enable=1 \
     swiotlb=2048
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 KERNEL_CUSTOM_LLVM := true
 
