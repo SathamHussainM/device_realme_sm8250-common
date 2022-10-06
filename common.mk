@@ -370,6 +370,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# RCS
+PRODUCT_PACKAGES += \
+    PresencePolling \
+    RcsService
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
