@@ -36,6 +36,9 @@
     -->
      <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
 
+    <!-- Does the device have a notification led -->
+    <bool name="config_hasNotificationLed">false</bool>
+
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">false</bool>
 
