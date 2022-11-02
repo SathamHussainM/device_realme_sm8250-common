@@ -89,9 +89,6 @@ ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=hastings
 
-# Camera
-vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,org.telegram.plus,tw.nekomimi.nekogram
-
 # Chipset
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM8250
