@@ -25,10 +25,4 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
-    <!-- Battery Health -->
-    <bool name="config_supportBatteryHealth">true</bool>
-    <string name="config_batteryChargeCycles">/sys/class/power_supply/battery/cycle_count</string>
-    <string name="config_batteryDesignCapacity">/sys/class/power_supply/battery/charge_full</string>
-    <string name="config_batteryCalculatedCapacity">/sys/class/power_supply/battery/charge_counter</string>
-
 </resources>
