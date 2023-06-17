@@ -74,6 +74,14 @@
             <instance>default</instance>
         </interface>
     </hal>
+    </hal> 
+    <hal format="hidl" optional="true">
+        <name>vendor.oplus.hardware.osense.client</name>
+        <version>1.0</version>
+        <interface>
+            <name>IOsenseHalReporter</name>
+            <instance>OsenseHalReporter</instance>
+        </interface>
     <hal format="hidl" optional="true">
         <name>vendor.oplus.hardware.radio</name>
         <version>1.0-1</version>
