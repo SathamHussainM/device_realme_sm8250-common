@@ -290,6 +290,9 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
 # Media
+TARGET_USES_CUSTOM_C2_MANIFEST := true
+GENERIC_ODM_IMAGE := true
+
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2.xml \
@@ -307,9 +310,6 @@ PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor
-
-# Media
-GENERIC_ODM_IMAGE := true
 
 # Net
 PRODUCT_PACKAGES += \
