@@ -144,7 +144,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2400
 
 # Camera
-#$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+$(call inherit-product-if-exists, vendor/oneplus/camera/oneplus-camera.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
